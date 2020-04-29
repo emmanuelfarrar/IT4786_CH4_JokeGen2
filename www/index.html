@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+    Name:
+    Date:
+    Title:
+
+    Description:
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+   <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />--> 
+    <meta http-equiv="Content-Security-Policy" content="default-src *;
+   img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <title>JokenGen</title>
+</head>
+
+<body>
+    <div class="app">
+        <div id="container">
+            <h1>Joke Generator</h1>
+            <label for='firstName'>First Name:</label>
+            <input id='firstName' type=text />
+            <label for='lastName'>Last Name:</label>
+            <input id='lastName' type=text />
+            <button id="btnGetJoke">Get Joke</button>
+            <p>Press the button to retrieve a Chuck Norris joke.</p>
+            <div id="joke">Here be the comedy</div>
+        </div> <!--container-->
+            
+    </div>
+    
+</body>
+
+</html>
